@@ -43,3 +43,4 @@ class Curry(Action):
         )
 
         return []
+

@@ -9,22 +9,11 @@ intents:
   - mood_unhappy
   - bot_challenge
   - ask_weather
-#  - city
 
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
-
-#  utter_greet:
-#      - condition:
-#          - type: slot
-#            name: logged_in
-#            value: true
-#        text: "Hey, {name}. Nice to see you again! How are you?"
-#
-#      - text: "Welcome. How is your day going?"
-
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -41,15 +30,36 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_ask_smoking:
+  - text: "Are you smoking ?"
+
+  utter_smoking_is_bad:
+  - text: "smoking is bad!"
+  utter_no_smoking_is_good :
+  - text: " no smoking is good!"
 
 
-  utter_ask_city:
-  - text: "Where?"
 
-  utter_weather_situation:
-  - text: "{city} is a sunny day {day}!"
-  - text: "{day}{city} is full of sunshine!"
-  - text: "What a sunny day is {city} {day}  "
+
+#  utter_ask_city:
+#  - text: "Where?"
+
+#  utter_weather_situation:
+#  - text: "{city} is a sunny day {day}!"
+#  - text: "{day}{city} is full of sunshine!"
+#  - text: "What a sunny day is {city} {day}  "
+
+
+#  utter_greet:
+#      - condition:
+#          - type: slot
+#            name: logged_in
+#            value: true
+#        text: "Hey, {name}. Nice to see you again! How are you?"
+#
+#      - text: "Welcome. How is your day going?"
+
+
 
 
 
@@ -63,40 +73,28 @@ session_config:
 
 
 slots:
-  city:
-    type: text
-
-  days:
-    type: text
-
+#  city:
+#    type: text
+  smoking:
+    type: bool
+    influence_conversation: True
 
 forms:
+  chat_form:
+      required_slots:
+#        city:
+#          - type: from_text
+        smoking:
+          - type: from_text
+
   where_form:
     required_slots:
         city:
           - type: from_text
-  when_form:
-    required_slots:
-        days:
-          - type: from_text
-
-
-
-
-
-
-
-
-
-
-
-
-
-#          - type: from_entity
-#            entity: city
-#        num_people:
-#          - type: from_entity
-#            entity: number
+#  when_form:
+#    required_slots:
+#        days:
+#          - type: from_text
 
 
 

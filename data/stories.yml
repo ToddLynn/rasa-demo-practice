@@ -2,77 +2,67 @@ version: "2.0"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+#- story: happy path
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_great
+#  - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+#- story: sad path 1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: affirm
+#  - action: utter_happy
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
-
-- story: weather
-  steps:
-  - intent: ask_weather
-  - action: utter_where
-  - intent: city
-  - action: where_form
-  - active_loop : where_form
-  - active_loop : null
-#  - slot_was_set:
-#      - city : London
-  - action: when_form
-  - active_loop: when_form
-  - active_loop: null
-  - action: utter_weather_situation
+#- story: sad path 2
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: deny
+#  - action: utter_goodbye
 
 
 
-
-- story: weather
-  steps:
-  - intent: ask_weather
-  - action: where_form
-  - active_loop : where_form
-  - active_loop : null
-#  - slot_was_set:
-#      - city : London
-  - action: utter_weather_situation
 
 
 #stories:
-#- story: Welcome message, premium user
-#  steps:
-#   - intent: greet
-#   - action: action_check_profile
-#   - slot_was_set:
-#     - premium_account: true
-#   - action: utter_welcome_premium
-#
-#- story: Welcome message, basic user
-#  steps:
-#   - intent: greet
-#   - action: action_check_profile
-#   - slot_was_set:
-#     - premium_account: false
-#   - action: utter_welcome_basic
-#   - action: utter_ask_upgrade
+- story: 为true
+  steps:
+   - intent: greet
+#   - action: utter_ask_smoking
+   - action: chat_form
+   - active_loop: chat_form
+   - slot_was_set:
+     - smoking: true
+   - active_loop: null
+   - action: utter_smoking_is_bad
+
+- story: 为false
+  steps:
+   - intent: greet
+#   - action: utter_ask_smoking
+   - action: chat_form
+   - active_loop: chat_form
+   - slot_was_set:
+     - smoking: false
+   - active_loop: null
+   - action: utter_no_smoking_is_good
+
+- story: 为false
+  steps:
+    - intent: greet
+    #   - action: utter_ask_smoking
+    - action: chat_form
+    - active_loop: chat_form
+    - slot_was_set:
+        - smoking: false
+    - active_loop: null
+    - action: utter_no_smoking_is_good
