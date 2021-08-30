@@ -43,7 +43,9 @@ responses:
     - text: " It's bad to smoke"
   utter_no_smoking_is_good:
     - text: " It's good not to smoke"
-
+  utter_out_of_scope:
+#    - text: "Sorry, I can't handle that request."
+    - text: "Sorry, I don't know what you talking about."
 
   utter_ask_city:
     - text: "Where?"
@@ -72,24 +74,24 @@ actions:
 
 
 
-#forms:
-#  weather_form:
-#      required_slots:
-#        city:
-#          - type: from_entity
-#            entity: city
-#        day:
-#          - type: from_entity
-#            entity: day
-
-
 forms:
   weather_form:
       required_slots:
         city:
-          - type: from_text
+          - type: from_entity
+            entity: city
         day:
-          - type: from_text
+          - type: from_entity
+            entity: day
+
+
+#forms:
+#  weather_form:
+#      required_slots:
+#        city:
+#          - type: from_text
+#        day:
+#          - type: from_text
 
 
 

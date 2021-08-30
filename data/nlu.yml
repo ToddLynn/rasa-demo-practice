@@ -39,8 +39,15 @@ nlu:
   examples: |
     - [today](day)
     - [yesterday](day)
+    - [the day before yesterday](day)
 
 
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - what?
 
 
 #- intent: goodbye
