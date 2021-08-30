@@ -20,20 +20,26 @@ nlu:
 
 
 
+- intent: weather
+  examples: |
+    - weather
+    - how's the weather today?
+#    - [weather]{"entity": "weather","value":"weather"}
+#    - how's the [weather]{"entity": "weather","value":"weather"} today?
 
+- intent: city
+  examples: |
+    - [London](city)
+    - [Paris](city)
+    - [Beijing](city)
+    - [Tokyo](city)
+    - [Shanghai](city)
 
-#- intent: ask_weather
-#  examples: |
-#    - weather
-#    - how's the weather today?
+- intent: day
+  examples: |
+    - [today](day)
+    - [yesterday](day)
 
-#- intent: city
-#  examples: |
-#    - London
-#    - Paris
-#    - Beijing
-#    - Tokyo
-#    - Shanghai
 
 
 

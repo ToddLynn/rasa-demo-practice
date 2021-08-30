@@ -2,8 +2,14 @@ version: "2.0"
 
 intents:
   - greet
+  - weather
+  - city
+  - day
 #  - chitchat
 
+entities:
+  - city
+  - day
 
 
 slots:
@@ -11,6 +17,12 @@ slots:
     type: bool
     influence_conversation: False
   name:
+    type: text
+    influence_conversation: False
+  city:
+    type: text
+    influence_conversation: False
+  day:
     type: text
     influence_conversation: False
 
@@ -24,10 +36,34 @@ responses:
 
     - text: "How is your day going?"
 
+  utter_ask_smoking:
+    - text: "Are you smoking ?"
+
+  utter_smoking_is_bad:
+    - text: " It's bad to smoke"
+  utter_no_smoking_is_good:
+    - text: " It's good not to smoke"
+
+
+  utter_ask_city:
+    - text: "Where?"
+  utter_ask_day:
+    - text: "When?"
+
+  utter_weather_situation:
+    - text: "{city} is a sunny day {day}!"
+    - text: "{day} {city} is full of sunshine!"
+    - text: "What a sunny day is {city} {day}  "
+
 actions:
 - action_log_in
 
 
+#forms:
+#  chat_form:
+#      required_slots:
+#        smoking:
+#          - type: from_text
 
 
 
@@ -36,9 +72,24 @@ actions:
 
 
 
+#forms:
+#  weather_form:
+#      required_slots:
+#        city:
+#          - type: from_entity
+#            entity: city
+#        day:
+#          - type: from_entity
+#            entity: day
 
 
-
+forms:
+  weather_form:
+      required_slots:
+        city:
+          - type: from_text
+        day:
+          - type: from_text
 
 
 
