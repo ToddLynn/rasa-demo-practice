@@ -1,6 +1,6 @@
 version: "2.0"
 
-stories:
+#stories:
 
 #- story: happy path
 #  steps:
@@ -9,60 +9,45 @@ stories:
 #  - intent: mood_great
 #  - action: utter_happy
 
-#- story: sad path 1
+
+
+stories:
+- story: 先测试槽位logged_in
+  steps:
+  - intent: greet
+  - action: action_log_in
+#  - slot_was_set:
+#    - logged_in: true
+
+  - action: utter_greet
+
+
+
+
+#- story: greet
 #  steps:
+#
+#  - action: action_log_in
+#  - slot_was_set:
+#    - logged_in: true
 #  - intent: greet
 #  - action: utter_greet
-#  - intent: mood_unhappy
-#  - action: utter_cheer_up
-#  - action: utter_did_that_help
-#  - intent: affirm
-#  - action: utter_happy
-
-#- story: sad path 2
-#  steps:
-#  - intent: greet
-#  - action: utter_greet
-#  - intent: mood_unhappy
-#  - action: utter_cheer_up
-#  - action: utter_did_that_help
-#  - intent: deny
-#  - action: utter_goodbye
 
 
 
 
 
-#stories:
-- story: 为true
-  steps:
-   - intent: greet
-#   - action: utter_ask_smoking
-   - action: chat_form
-   - active_loop: chat_form
-   - slot_was_set:
-     - smoking: true
-   - active_loop: null
-   - action: utter_smoking_is_bad
 
-- story: 为false
-  steps:
-   - intent: greet
-#   - action: utter_ask_smoking
-   - action: chat_form
-   - active_loop: chat_form
-   - slot_was_set:
-     - smoking: false
-   - active_loop: null
-   - action: utter_no_smoking_is_good
 
-- story: 为false
-  steps:
-    - intent: greet
-    #   - action: utter_ask_smoking
-    - action: chat_form
-    - active_loop: chat_form
-    - slot_was_set:
-        - smoking: false
-    - active_loop: null
-    - action: utter_no_smoking_is_good
+
+
+
+
+
+
+
+
+
+
+
+

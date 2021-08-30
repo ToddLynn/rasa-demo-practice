@@ -28,19 +28,18 @@ from rasa_sdk.executor import CollectingDispatcher
 
 
 
-class Curry(Action):
+
+class ActionLogIn(Action):
 
     def name(self) -> Text:
-        return "curry"
+        return "action_log_in"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         dispatcher.utter_message(
-            template ="utter_greet",
-            name = "Sara"
+            text="Hello World!"
         )
 
         return []
-

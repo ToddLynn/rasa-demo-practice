@@ -2,109 +2,50 @@ version: "2.0"
 
 intents:
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - ask_weather
-
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  utter_ask_smoking:
-  - text: "Are you smoking ?"
-
-  utter_smoking_is_bad:
-  - text: "smoking is bad!"
-  utter_no_smoking_is_good :
-  - text: " no smoking is good!"
-
-
-
-
-#  utter_ask_city:
-#  - text: "Where?"
-
-#  utter_weather_situation:
-#  - text: "{city} is a sunny day {day}!"
-#  - text: "{day}{city} is full of sunshine!"
-#  - text: "What a sunny day is {city} {day}  "
-
-
-#  utter_greet:
-#      - condition:
-#          - type: slot
-#            name: logged_in
-#            value: true
-#        text: "Hey, {name}. Nice to see you again! How are you?"
-#
-#      - text: "Welcome. How is your day going?"
-
-
-
-
-
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
-
-
+#  - chitchat
 
 
 
 slots:
-#  city:
-#    type: text
-  smoking:
+  logged_in:
     type: bool
-    influence_conversation: True
+    influence_conversation: False
+  name:
+    type: text
+    influence_conversation: False
 
-forms:
-  chat_form:
-      required_slots:
-#        city:
-#          - type: from_text
-        smoking:
-          - type: from_text
+responses:
+  utter_greet:
+    - condition:
+        - type: slot
+          name: logged_in
+          value: true
+      text: "Hey, {name}. Nice to see you again! How are you?"
 
-  where_form:
-    required_slots:
-        city:
-          - type: from_text
-#  when_form:
-#    required_slots:
-#        days:
-#          - type: from_text
+    - text: "How is your day going?"
 
+actions:
+- action_log_in
 
 
 
 
 
-#slots :
-#  logged_in :
-#    type 类型: bool
-#    influence_conversation : False
-#  name :
-#    type : text
-#    influence_conversation : False
+
+
+
+
+
+
+
+
+
+
+
+
+#    utter_bye:
+#      - text: "See you!"
+#    utter_chitchat/ask_name:
+#      - text: "Oh yeah, I am called the retrieval bot."
+#    utter_chitchat/ask_weather:
+#      - text: "Oh, it does look sunny right now in Berlin."
