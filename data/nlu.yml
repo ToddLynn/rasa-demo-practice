@@ -50,6 +50,19 @@ nlu:
     - what?
 
 
+
+- lookup: city
+  examples: |
+    - Chengdu
+    - Changchuan
+    - Nanjing
+    - Xian
+    - Hefei
+    - Wuhan
+    - Xiangtan
+    - Mianyang
+    - Meishan
+
 #- intent: goodbye
 #  examples: |
 #    - cu

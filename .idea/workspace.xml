@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3a956c6-ce83-4fa1-999b-ba5751e6c477" name="Default Changelist" comment="提交日志-解决兜底需求小demo-用rule.yml写好out-of-scope的问题&#10;提交时间-20210830-16:30">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/rules.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wTtuBogLVDcpzNiJC6IgQz4a43" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gd-ai-chatbot-medical" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace_dl_env\rasa-demo-practice\models" />
+      <recent name="F:\workspace_dl_env\rasa-demo-practice\data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rasa_demo_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actions/actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.actions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3a956c6-ce83-4fa1-999b-ba5751e6c477" name="Default Changelist" comment="" />
+      <created>1628494626935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628494626935</updated>
+      <workItem from="1628494628112" duration="22197000" />
+      <workItem from="1628577262469" duration="10427000" />
+      <workItem from="1628644607651" duration="1553000" />
+      <workItem from="1628664871401" duration="257000" />
+      <workItem from="1628776162588" duration="2169000" />
+      <workItem from="1628817063491" duration="5310000" />
+      <workItem from="1629257723773" duration="70000" />
+      <workItem from="1629357354382" duration="2255000" />
+      <workItem from="1629359997740" duration="3101000" />
+      <workItem from="1629421889605" duration="601000" />
+      <workItem from="1629425702196" duration="300000" />
+      <workItem from="1629426079723" duration="553000" />
+      <workItem from="1629427406853" duration="5820000" />
+      <workItem from="1629441429363" duration="2753000" />
+      <workItem from="1629856504609" duration="7169000" />
+      <workItem from="1630026656149" duration="599000" />
+      <workItem from="1630050416158" duration="3547000" />
+      <workItem from="1630285569793" duration="19294000" />
+      <workItem from="1630463249338" duration="3970000" />
+      <workItem from="1630476705228" duration="4381000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交日志-备份-初版问询天气QA&#10;提交时间-20210819-16:00">
+      <created>1629360069553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629360069553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交日志-备份-初版问询天气QA&#10;提交时间-20210825-14:35">
+      <created>1629873279686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629873279686</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交日志-备份-rasa测试不成功，准备回滚初版&#10;提交时间-20210830-10:47">
+      <created>1630291649136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630291649136</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交日志-备份-天气QA，form是from_text,不是from_entity&#10;提交时间-20210830-15:20">
+      <created>1630308029119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630308029120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交日志-解决兜底需求小demo-用rule.yml写好out-of-scope的问题&#10;提交时间-20210830-16:30">
+      <created>1630312600107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630312600107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交日志-备份-初版问询天气QA&#10;提交时间-20210819-16:00" />
+    <MESSAGE value="提交日志-备份-初版问询天气QA&#10;提交时间-20210825-14:35" />
+    <MESSAGE value="提交日志-备份-rasa测试不成功，准备回滚初版&#10;提交时间-20210830-10:47" />
+    <MESSAGE value="提交日志-备份-天气QA，form是from_text,不是from_entity&#10;提交时间-20210830-15:20" />
+    <MESSAGE value="提交日志-解决兜底需求小demo-用rule.yml写好out-of-scope的问题&#10;提交时间-20210830-16:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交日志-解决兜底需求小demo-用rule.yml写好out-of-scope的问题&#10;提交时间-20210830-16:30" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630479270971">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="414" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1630479270971" />
+    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1630483451765">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1630483451765" />
+    <state x="136" y="68" key="DiffContextDialog" timestamp="1630483450991">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="136" y="68" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1630483450991" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1630476729540">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1630476729540" />
+    <state x="221" y="74" key="SettingsEditor" timestamp="1630480256681">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1630480256681" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1630312879643">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1630312879643" />
+    <state x="256" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1628566323133">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="256" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860@0.0.1440.860" timestamp="1628566323133" />
+    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630291780205">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1630291780205" />
+    <state x="328" y="328" width="596" height="532" key="find.popup" timestamp="1630466167486">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="375" y="130" width="566" height="532" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1628520866693" />
+    <state x="328" y="328" width="596" height="532" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1630466167486" />
+    <state x="403" y="217" key="git4idea.merge.GitPullDialog" timestamp="1630291721644">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="403" y="217" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1630291721644" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1628580626594">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1628580626594" />
+  </component>
+</project>

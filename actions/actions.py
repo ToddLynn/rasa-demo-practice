@@ -44,6 +44,36 @@ class ActionLogIn(Action):
 
         return []
 
+class ActionLogIn(Action):
+
+    def name(self) -> Text:
+        return "action_log_in"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(
+            text="Hello World!"
+        )
+
+        return []
+
+class ActionLogIn(Action):
+
+    def name(self) -> Text:
+        return "action_log_in"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(
+            text="Hello World!"
+        )
+
+        return []
+
 
 
 
