@@ -1,68 +1,15 @@
 version: "2.0"
 
-##stories:
-#
-##- story: happy path
-##  steps:
-##  - intent: greet
-##  - action: utter_greet
-##  - intent: mood_great
-##  - action: utter_happy
-#
-#
-#
-##- story: greet
-##  steps:
-##
-##  - action: action_log_in
-##  - slot_was_set:
-##    - logged_in: true
-##  - intent: greet
-##  - action: utter_greet
-#
-#
-#stories:
-#- story: 先测试槽位logged_in
-#  steps:
-#  - intent: greet
-#  - action: action_log_in
-##  - slot_was_set:
-##    - logged_in: true
-#
-#  - action: utter_greet
-
-
-#stories:
-#- story: 无表单测试天气问答
-#  steps:
-#  - intent: weather
-#  - action: weather_form
-#  - active_loop: weather_form
-#  - active_loop: null
-#  - action: utter_weather_situation
-#
-#
-#
-#stories:
-#- story: 无表单测试天气问答1
-#  steps:
-#  - intent: weather
-#  - action: utter_ask_city
-#  - intent: city
-#  - action: utter_ask_day
-#  - intent: day
-#  - action: utter_weather_situation
-
 
 stories:
-- story: 无表单测试天气问答2
+- story: 分支测试
   steps:
-  - intent: weather
-  - action: weather_form
-  - active_loop: weather_form
-  - active_loop: null
-  - action: utter_weather_situation
-
+  - intent : greet
+  - action : chat_form
+  - active_loop : chat_form
+  - active_loop : null
+#  - action : utter_comment
+  - action : utter_no_smoking_is_good
 
 
 
