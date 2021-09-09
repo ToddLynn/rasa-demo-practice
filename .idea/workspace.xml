@@ -19,15 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a956c6-ce83-4fa1-999b-ba5751e6c477" name="Default Changelist" comment="提交记录-push到新分支new_function，进行分支技能试验&#10;提交时间-20210901-16:05">
-      <change afterPath="$PROJECT_DIR$/models/rules.yml" afterDir="false" />
+    <list default="true" id="e3a956c6-ce83-4fa1-999b-ba5751e6c477" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nlu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/rules.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/M3-training_dataset_1564317234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu_converted.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/stories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stories.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/rules.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_stories.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace_dl_env\rasa-demo-practice\data" />
       <recent name="F:\workspace_dl_env\rasa-demo-practice\models" />
       <recent name="F:\workspace_dl_env\rasa-demo-practice" />
-      <recent name="F:\workspace_dl_env\rasa-demo-practice\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace_dl_env\rasa-demo-practice\data" />
@@ -122,7 +123,11 @@
       <workItem from="1630483575407" duration="6284000" />
       <workItem from="1630547706967" duration="1630000" />
       <workItem from="1630573866635" duration="2247000" />
-      <workItem from="1630631533987" duration="2531000" />
+      <workItem from="1630631533987" duration="9266000" />
+      <workItem from="1630640907385" duration="4462000" />
+      <workItem from="1630652756057" duration="2720000" />
+      <workItem from="1630890721020" duration="1503000" />
+      <workItem from="1630907661909" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="提交日志-备份-初版问询天气QA&#10;提交时间-20210819-16:00">
       <created>1629360069553</created>
@@ -166,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630483705371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交记录-nlu数据集的转换方式验证成功后的备份&#10;提交时间-2021-9-3 09:55">
+      <created>1630634272991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630634272991</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交记录-nlu数据集的转换方式验证成功后的备份&#10;提交时间-2021-9-3 09:55">
+      <created>1630634373241</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630634373241</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,33 +210,34 @@
     <MESSAGE value="提交日志-备份-天气QA，form是from_text,不是from_entity&#10;提交时间-20210830-15:20" />
     <MESSAGE value="提交日志-解决兜底需求小demo-用rule.yml写好out-of-scope的问题&#10;提交时间-20210830-16:30" />
     <MESSAGE value="提交记录-push到新分支new_function，进行分支技能试验&#10;提交时间-20210901-16:05" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交记录-push到新分支new_function，进行分支技能试验&#10;提交时间-20210901-16:05" />
+    <MESSAGE value="提交记录-nlu数据集的转换方式验证成功后的备份&#10;提交时间-2021-9-3 09:55" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交记录-nlu数据集的转换方式验证成功后的备份&#10;提交时间-2021-9-3 09:55" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630479270971">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="414" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1630479270971" />
-    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1630575104240">
+    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1630634372520">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1630575104240" />
+    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1630634372520" />
     <state x="136" y="68" key="DiffContextDialog" timestamp="1630483596931">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="136" y="68" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1630483596931" />
-    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1630633576900">
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1630653398291">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1630633576900" />
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1630653398291" />
     <state x="221" y="74" key="SettingsEditor" timestamp="1630480256681">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1630480256681" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1630575098004">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1630634379306">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1630575098004" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1630634379306" />
     <state x="92" y="92" width="1256" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1630487016339">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -226,15 +246,15 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="256" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860@0.0.1440.860" timestamp="1628566323133" />
-    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630291780205">
+    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630635074656">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1630291780205" />
-    <state x="328" y="328" width="596" height="532" key="find.popup" timestamp="1630633216363">
+    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1630635074656" />
+    <state x="328" y="328" width="596" height="532" key="find.popup" timestamp="1630651351430">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="375" y="130" width="566" height="532" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1628520866693" />
-    <state x="328" y="328" width="596" height="532" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1630633216363" />
+    <state x="328" y="328" width="596" height="532" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1630651351430" />
     <state x="403" y="217" key="git4idea.merge.GitPullDialog" timestamp="1630291721644">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

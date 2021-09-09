@@ -1,15 +1,10 @@
 version: "2.0"
 
-
 stories:
-- story: 分支测试
-  steps:
-  - intent : greet
-  - action : chat_form
-  - active_loop : chat_form
-  - active_loop : null
-#  - action : utter_comment
-  - action : utter_no_smoking_is_good
+  - story: try
+    steps:
+    - intent : greet
+    - action : utter_ask_age
 
 
 
@@ -17,9 +12,25 @@ stories:
 
 
 
+#stories:
+#- story: 分支测试，用form验证
+#  steps:
+#  - intent : greet
+#  - action : chat_form
+#  - active_loop : chat_form
+#  - active_loop : null
+##  - action : utter_comment
+#  - action : utter_comment_smoking
 
 
-
+#- story: 分支测试，不用表单直接slot_was_set
+#  steps:
+#  - intent : greet
+##  - action : utter_ask_smoking
+##  - action : utter_ask_smoking
+##  - slot_was_set:
+##      - smoking: true
+#  - action : utter_ask_age
 
 
 

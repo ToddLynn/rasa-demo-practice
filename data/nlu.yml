@@ -1,0 +1,9 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - good day
+    - how are you

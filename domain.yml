@@ -1,30 +1,59 @@
 version: "2.0"
 
+#intents:
+#  - greet
+#
+#
+#
+#responses:
+#  utter_ask_smoking:
+#    - text: "Are you smoking ?"
+##  utter_ask_gender:
+##    - text: "What's your gender ?"
+#  utter_ask_age:
+#    - text: "How old are you ?"
+#  utter_comment_smoking:
+#    - condition:
+#        - type: slot
+#          name: smoking
+#          value: true
+#      text: "Yes,you are a {age} {gender}! {smoking},It's good not to smoke"
+#    - text: "No!!! you are a {age} {gender}! {smoking},It's bad to smoke"
+#
+#
+##  utter_no_smoking_is_good:
+##    - text: " {smoking},It's bad to smoke"
+##    - text: " {smoking},It's good not to smoke"
+#
+#slots:
+#  smoking:
+#    type: bool
+#    influence_conversation: False
+#  gender:
+#    type: text
+#    influence_conversation: False
+#  age:
+#    type: text
+#    influence_conversation: False
+#
+#forms:
+#  chat_form:
+#    required_slots:
+#      smoking:
+#        - type: from_text
+#      gender:
+#        - type: from_text
+#      age:
+#        - type: from_text
+
+
+
 intents:
   - greet
 
-
-slots:
-  smoking:
-    type: bool
-    influence_conversation: False
-
 responses:
-  utter_ask_smoking:
-    - text: "Are you smoking ?"
-  utter_no_smoking_is_good:
-    - text: " {smoking},It's good not to smoke"
-
-
-forms:
-  chat_form:
-    required_slots:
-      smoking:
-        - type: from_text
-
-
-
-
+  utter_ask_age:
+    - text: "How old are you ?"
 
 
 
