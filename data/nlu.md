@@ -1501,3 +1501,9 @@
 - 染上[肺念珠菌病](disease)表征呀
 - 患[肺炎性假瘤](disease)表征呀
 
+
+
+
+
+## lookup:food
+  data/lookup/Symptoms.txt

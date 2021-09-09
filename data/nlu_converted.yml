@@ -1,8 +1,8 @@
 version: "2.0"
 nlu:
-- intent: inform
+- intent: search_symptom
   examples: |
-    - 染上[镉中毒](disease)的症状吗
+    - 染上[镉中毒](symptoms)的症状吗
     - 患[大叶性肺炎](disease)时什么症状啊
     - 患[过敏性休克](disease)症状阿
     - [苯中毒](disease)现象阿
